@@ -1,0 +1,28 @@
+# AtividadeComC9
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	float raio;
+	
+	
+		
+	printf("Digite o raio do Circulo ");
+	scanf("%f", &raio);
+ 
+
+// Calculo de valor do raio da circuferencia e do comprimento
+ 
+	float area = 3.14 * (raio * raio) ;
+	
+	float comprimento = 2 * 3.14 * raio;
+	 
+	
+	printf("\A area do circulo e %f ", area);
+	printf("\O comprimento do circulo e %f", comprimento);
+
+	return 0;
+	
+}
